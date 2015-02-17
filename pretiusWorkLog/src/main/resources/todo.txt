@@ -1,0 +1,28 @@
+
+
+do zrobienia: 
+* model danych
+* skrypty tworzące db
+* skrypt generujący losowe dane
+* widok z raportem
+
+* aplikacja
+ - spring
+ - bootstrap
+ - spring security
+ - mybatis
+ - maven
+ - tomcat
+ * logowanie
+ * raport z widoku
+ 
+Dane:
+* employee (employee_id, first, lastname, username, pwhash)
+* client (client_id, client_name)
+* project (project_id, client_id, project_name)
+* task (task_id, project_id, task_name) 
+* work_entry (work_entry_id, employee_id, task_id, amount_hours, date)
+
+businesslog?
+aaalog?
+

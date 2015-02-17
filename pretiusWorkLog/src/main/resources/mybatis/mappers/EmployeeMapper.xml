@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.mybatis.jpetstore.persistence.CategoryMapper">
+
+  <select id="autheticateEmployee" resultType="java.lang.Integer">
+	SELECT 
+    	count(employee_id)
+   	FROM 
+   		pwl.employee
+    WHERE username=#{usr} AND pw_hash=#{pwHash} 
+  </select>
+
+</mapper>
